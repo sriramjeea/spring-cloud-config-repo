@@ -8,6 +8,7 @@ data:
   LOG_LEVEL: "INFO"
   API_ENDPOINT: "https://example.com"
   ENABLE_FEATURE_X: "true"
+  spring.profiles.active: "dev"
 
   # An entire configuration file embedded using block scaling
   app-config.json: |
