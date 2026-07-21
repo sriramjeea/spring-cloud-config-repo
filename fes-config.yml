@@ -3,9 +3,6 @@ kind: ConfigMap
 metadata:
   name: app-settings
   namespace: default
-spring:
- profiles:
-  active: dev
 data:
   # Simple literal key-value pairs
   LOG_LEVEL: "INFO"
