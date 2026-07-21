@@ -1,9 +1,11 @@
+spring:
+  application:
+    name: spring-cloud-config
+    password: 123456
+
 app:
   name: spring-cloud-config-repo
   url: https://dev.example.com
-
-spring:
   cloud:
     config:
       uri: http://localhost:8888
-spring.application.name=Spring-cloud-config
